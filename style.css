@@ -11,3 +11,15 @@ h2{
     border: solid;
     border-color: blue;
 }
+
+.thumbnails_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.thumbnails{
+    width: 100%;
+}
+
+.stat_bar{
+    
+}
