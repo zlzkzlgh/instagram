@@ -2,16 +2,19 @@ h2{
     color: red;
 }
 /*클래스 선택자를 쓸때는 .클래스값으로 써야한다.*/
+/*하이라이트*/
 .highlight{
-    border: solid;
+    text-align: center;
 }       
 
 /*아이디 선택자를 쓸 때는 #아이디값으로 써야한다.*/
+/*프로필*/
 #profile{
     border: solid;
     border-color: blue;
 }
 
+/* 썸네일 */
 .thumbnails_grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -19,7 +22,9 @@ h2{
 .thumbnails{
     width: 100%;
 }
+/* --------------------- */
 
+/* 게시물 팔로워*/
 .stat_bar{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -31,7 +36,9 @@ h2{
 .stat{
     text-align: center;
 }
+/* ---------------------- */
 
+/* 사진 동그랗게 만들기 */
 .circle_pic{
     border: solid white 1px;
     border-radius: 50%;
@@ -40,7 +47,7 @@ h2{
     object-fit: cover;
 }
 
-#profile{
+#profile_pic{
     width: 50px;
     height: 50px;
 }
@@ -48,4 +55,12 @@ h2{
 .highlight_pic{
     width: 35px;
     height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ---------------------- */
+
+#highlight_area{
+    display: grid;
+    grid-template-columns:45px 45px 1fr;
 }
