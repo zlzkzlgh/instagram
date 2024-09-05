@@ -7,6 +7,38 @@ h2{
     text-align: center;
 }       
 
+#top{
+    display: grid;
+    grid-template-columns: 4fr 7fr 4fr;
+    border-bottom: solid gray 0.1px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+#top_img{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+}
+
+#top img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#top input{
+    height: 60%;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    border: solid grey;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 100;
+}
+
 /*아이디 선택자를 쓸 때는 #아이디값으로 써야한다.*/
 /*프로필*/
 #profile{
@@ -38,6 +70,32 @@ button{
     border: 1px solid gray;
     border-radius: 3px;
 }
+
+i{
+    color: gray;
+}
+
+#top i{
+    font-size: 14px;
+}
+
+#top div{
+    text-align: center;
+    padding-top: 1px;
+}
+
+#sub_icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-size: 15px;
+    text-align: center;
+    height: 30px;
+}
+
+.selected{
+    border-bottom: solid gray 3px;
+}
+
 /*--------------------*/
 
 /* 썸네일 */
